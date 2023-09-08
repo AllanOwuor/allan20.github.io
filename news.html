@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+    <meta name="description" content="Hi I'm Allan Odila. This page describes my schedules.">
+    <title>News page</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header></header>
+   <div><nav>
+    <ul id="unordered-menu">
+      <li class="menu"><a href="home.html">Home</a></li>
+      <li class="menu"><a href="about.html">About</a></li>
+      <li class="menu"><a href="news.html">News</a></li>
+    </ul>
+   
+   <div class="dark-mode-icon">dark mode
+    <i class="fas fa-moon"></i>
+  </div>
+ </nav>
+  </div><br>
+  <div>
+<h1>My goals for the year</h1>
+
+      <p class="vertical"><a href="#daily">My daily schedule</a></p>
+      <p class="vertical"><a href="#vacation">Where I'd like to visit</a></p>
+      <p class="vertical"><a href="#contact">Contact me</a></p>
+
+<div>
+  <article id="daily">
+    <h2>My daily schedule</h2>
+    <ol> 
+        <li>learn webdev</li>
+        <li>I plan my schedule </li>
+        <li>I use resources from <abbr title="Mozilla Developer Network">MDN</abbr></li>
+        </ol> 
+  
+        <aside>
+          <details>
+            <summary>Guess the number of hours I code per day</summary>
+            <p>I start at 8am and code for 3 hours every morning</p>
+          </details>
+        </aside>
+        <br>
+        <table>
+          <caption>My daily schedule</caption>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+          </tr>
+          <tr><td>
+            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time> 
+          </td> 
+          <td>Get code</td>
+        </tr>
+        <tr><td>
+          <time datetime="11:30">11am</time>-<time datetime="12:00">12pm</time> 
+        </td>
+        <td>Take lunch</td>
+      </tr>
+      <tr><td>
+        <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time> 
+      </td>
+      <td>Get code</td>
+    </tr>
+    <tr>
+      <td rowspan="2">All other times</td>
+      <td>Free time</td>
+    </tr>
+    <tr>
+      <td>Work-out</td>
+    </tr>
+    </table>
+  </article>
+</div>
+
+<hr>
+
+<div>
+<article id="vacation">
+      <h2>Places I'd like to visit</h2> 
+    <ul>
+      <li><p>Coast.</p></li>
+      <li><p>Kisumu</p></li>
+    </ul>
+  
+      <h2>Places I want to avoid</h2>
+      <p>Anywhere cold. <strong>No way!</strong></p>
+      <dl>
+        <dt>Riftvalley</dt>
+        <dd>I hear this region is so <strong>cold</strong></dd>
+        <dt>Mount Kenya</dt>
+        <dd>This region is also cold</dd>
+      </dl> 
+  </article>
+</div>
+
+      <hr>
+
+<div>
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you</p>
+        <form action="\action.php" method="post">
+          <fieldset>
+            <legend>Personal info</legend>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" 
+          autocomplete="on" required> <br><br> 
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" 
+          autocomplete="on" required> <br><br>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" 
+          autocomplete="on" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br><br>
+          <label for="sometext">Send feedback</label>
+          <textarea type="sometext">Some text...</textarea>
+          <input type="submit" value="submit">
+          <button type="reset">Reset</button>
+        </fieldset>
+        </form>
+      </article>
+    </div>
+
+    <footer id="scroll">
+      <a href="#">Scroll to top</a>
+      <hr>  
+      &lt;&lt; &copy; <a href="about.html">Allan Odila</a> &gt;&gt;
+      <hr>
+    </footer>
+
+    </div>
+
+</body>
+</html>

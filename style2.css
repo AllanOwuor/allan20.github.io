@@ -1,0 +1,157 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+}
+h1{
+  text-shadow: 2px 2px 3px rgb(239, 141, 13);
+}
+#unordered-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a79f9f;
+    font-weight: bold;
+    position: fixed;
+    width:100%;
+    top: 0;
+}
+@media screen and (max-width: 600px) {
+  ul .menu li.right
+  ul .menu li {float: none;}
+}
+nav .menu{
+  float: left;  
+}
+.menu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+  } 
+.menu a:hover{
+  background-color: burlywood;
+  text-shadow: 2px 2px 4px black;
+}
+.menu a:active {
+    background-color: rgb(0, 100, 0);
+    text-shadow: 2px 2px 4px black;
+  }
+
+table,tr,th,td ,caption{
+  border: 1px solid #eee;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+.vertical a{
+    display: block;
+    color: #1b067a;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.vertical a:hover{
+  color: red;
+  text-shadow: 2px 2px 4px black;
+  font-style: italic;
+}
+fieldset{
+  box-shadow: inset;
+  border: 5px;
+  border-radius: 8px;
+  background-color: burlywood;
+  width: 70%;
+  margin-left: 0px;
+  cursor: pointer;
+  
+}
+li::before{
+  color: green;
+}
+legend{
+  font-weight: bold;
+  font-style: italic;
+}
+label{
+  font-style: italic;
+}
+input[type=text], [type=tel]{
+  width:100%;
+  padding: 4px 20px;
+  border-color: #ccc;
+  background-color: rgb(255, 255, 255);
+  border-radius: 14px;
+}
+input[type=text]:focus, [type=tel]:focus{
+  border: 2px ridge black;
+  outline: none;
+}
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px inset #ccc;
+  border-radius: 14px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+textarea:focus{
+  border: 3px inset black;
+  outline: none;
+}
+input[type=submit], button[type=reset]{
+background-color: #ccc;
+border: outset;
+color: black;
+padding: 6px 12px;
+text-decoration: none;
+border-radius: 4px;
+}
+.items {
+  background-color: rgb(222, 214, 214);
+  border-radius: 4px;
+  box-shadow: 5px 8px 5px 1px #000;
+  padding: auto;
+}
+.skills{
+  background-color:rgb(222, 214, 214);
+  padding:20px;
+  color:rgb(0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 5px 8px 5px 1px #000;
+}
+#scroll{
+  background-color: #fff;
+} 
+#scroll a:link {
+  color: blue;
+}
+
+#scroll a:visited {
+  color: purple;
+} 
+
+#scroll a:hover {
+  color: red;
+}
+
+#scroll a:active {
+  color: blue;
+}
+ol{
+  list-style-type: disc;
+}
+.dark-mode-icon {
+  color: white; /* Set the icon color */
+  font-size: 18px; /* Set the icon size */
+  position: absolute; /* Adjust positioning as needed */
+  top: 10px;
+  right: 10px;
+}
